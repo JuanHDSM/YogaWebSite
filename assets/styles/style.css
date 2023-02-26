@@ -9,9 +9,49 @@
 }
 
 .container {
-    width: 996px;
+    width: 1026px;
     margin: auto;
 }
+
+.default-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #009090;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.default-description {
+    font-size: 18px;
+    margin: auto;
+    font-weight: 400;
+    color: #555547;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 900px;
+}
+
+.default-description-bold {
+    font-size: 18px;
+    margin: auto;
+    font-weight: bold;
+    color: #555547;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 380px;
+}
+
+.default-description-video {
+    font-size: 18px;
+    color: #555547;
+    line-height: 27px;
+    margin-left: 30px;
+    width: 380px;
+}
+
 
 header {
     background-color: #FFF;
@@ -97,7 +137,7 @@ header a {
 }
 
 .banner2 {
-    height: calc(130vh - 90px);
+    height: calc(120vh - 90px);
     background-image: url(../img/banner-image.png);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -118,25 +158,83 @@ header a {
 
 .title-descripiton-banner {
     font-family: 'Philosopher', sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: 400px;
     font-size: 48px;
     color: #009090;
 }
 
-.button-banner {
+.desc-banner {
+    font-size: 18px;
+    color: #555547;
+}
+
+.default-button {
     border: none;
     font-size: 16px;
     padding: 8px 50px;
     border-radius: 20px;
     height: 40px;
     width: 250px;
-    background-color: rgb(241, 162, 147);
+    background-color: #f1a293;
     color: #FFF;
-    margin-top: 25px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
-.button-banner:hover {
-    background-color: rgba(241,162,147,0.9);
+.default-button:hover {
+    background-color: #dd9384;
+    color: #FFF;
+}
+
+.container-services {
+    display: flex;
+    background-color: #F8F8F6;
+}
+
+.box-service {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 390px;
+    text-align: center;
+    padding: 25px 25px 40px 25px;
+}
+
+.title-service {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #009090;
+}
+
+.description-service {
+    font-size: 18px;
+    color: #555547;
+    display: flex;
+}
+
+.container-videos {
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-videos {
+    display: flex;
+}
+
+.box-video {
+    margin-right: 10px;
+    width: 380px;
+}
+
+.video-description {
+    background-color: #F8F8F6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
