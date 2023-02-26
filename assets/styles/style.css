@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 996px;
+    margin: auto;
+}
+
+header {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    box-shadow: #777 1px 1px 5px;
+}
+
+.container-header {
+    width: 996px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+header a {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.academy-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.academy-link .ph-arrow-square-out {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.search-button {
+    height: 20px;
+    cursor: pointer;
+}
+
+.button-login {
+    display: flex;
+    align-items: center;
+}
+
+.button-login a{
+    font-weight: bold;
+    padding: 8px 18px;
+    margin-left: 10px;
+    border: 2px solid #009090;
+    color: #009090;
+    border-radius: 40px;
+}
+
+.button-login a:hover {
+    background-color: #009090;
+    color: #FFF;
+}
+
+.banner {
+    height: calc(100vh - 90px);
+}
+
+.banner1 {
+    height: calc(50vh - 90px);
+    background-image: url(../img/Mask-group.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.banner2 {
+    height: calc(130vh - 90px);
+    background-image: url(../img/banner-image.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.description-banner {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-descripiton-banner {
+    font-family: 'Philosopher', sans-serif;
+    margin-bottom: 25px;
+    font-weight: 400px;
+    font-size: 48px;
+    color: #009090;
+}
+
+.button-banner {
+    border: none;
+    font-size: 16px;
+    padding: 8px 50px;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(241, 162, 147);
+    color: #FFF;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.button-banner:hover {
+    background-color: rgba(241,162,147,0.9);
+}
